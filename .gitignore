@@ -1,0 +1,16 @@
+bin/
+obj/
+TestResults/
+.vs/
+*.user
+*.log
+.obsidian-win-sync/
+ObsidianWinSync.Tests/bin/
+ObsidianWinSync.Tests/obj/
+ObsidianWinSync.Core/bin/
+ObsidianWinSync.Core/obj/
+ObsidianWinSync.Tray/bin/
+ObsidianWinSync.Tray/obj/
+artifacts/
+
+obsidian-sync.json

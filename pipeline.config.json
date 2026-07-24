@@ -1,0 +1,6 @@
+{
+  "//": "preset を選ぶ。上書きは commands / trace で",
+  "preset": "dotnet",
+  "commands": {},
+  "trace": {}
+}

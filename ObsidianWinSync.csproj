@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>ObsidianWinSync.Cli</AssemblyName>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Configuration\**\*.cs" />
+    <Compile Remove="Sync\**\*.cs" />
+    <Compile Remove="ObsidianWinSync.Tests\**\*.cs" />
+    <Compile Remove="ObsidianWinSync.Core\**\*.cs" />
+    <Compile Remove="ObsidianWinSync.Tray\**\*.cs" />
+    <None Remove="ObsidianWinSync.Tests\**\*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="ObsidianWinSync.Core\ObsidianWinSync.Core.csproj" />
+  </ItemGroup>
+
+</Project>
